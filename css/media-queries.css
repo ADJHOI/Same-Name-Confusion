@@ -1,0 +1,107 @@
+@media only screen and (max-width: 800px){
+    
+    h1{
+        font-weight: 200;
+        font-size: 22px;
+    }
+
+    h2{
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    h3{
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .image-section{
+        display: block;
+    }
+    
+    .image-wrapper{
+        width: calc(100% - 10px);
+        margin: 40px 5px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .image-wrapper-full{
+        width: calc(100% - 10px);
+        margin: 40px 5px;
+    }
+    
+    .album{
+        width: 100%;
+    }
+    
+    .landscape{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .portrait{
+        width: 100%;
+        margin: auto; 
+    }
+    
+    .landing{
+        display: block;
+    }
+    
+    .landing-wrapper{
+        display: block;
+        align-items: center;
+        align-content: center;
+        height: 100vh;
+        width: 100%;    
+    }
+    
+    .landing-wrapper .image-wrapper{
+        margin: 60px 0px;
+        width: 100%;
+    }
+    
+    .portrait-lg{
+        height: calc(50vh - 90px);
+        width: auto;
+        opacity: 0.9;
+        margin: auto;
+    }
+    
+    .para{
+        width: calc(100% - 40px);
+        margin: 15px auto
+    }
+    
+    .point{
+        width: calc(100% - 60px);
+        margin: 30px auto;
+    }
+    
+    .pull-quote{
+        text-align: center;
+        margin: 40px auto;
+        width: calc(100% - 40px);
+        color: #e56725;
+    }
+    
+    .article{
+        padding-bottom: 25px;
+    }
+    
+    .header{
+        height: 65px;
+    }
+    
+    .button{
+        margin: 0px 15px;
+    }
+    
+}
