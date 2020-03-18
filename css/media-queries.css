@@ -1,114 +1,78 @@
-@media only screen and (min-width: 1920px){
-    #must-be-lucky{
-        width: 1440px;
-        height: 805px;
+@media only screen and (max-width: 1249px){
+    h1{
+        margin-top: -105px;
+        font-size: 200px;
+        line-height: 160px;
+    }
+    
+    #a2{
+        margin-left: -18px;
+    }
+    
+    p{
+        font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 800px){
-    
+@media only screen and (max-width: 879px){
     h1{
-        font-weight: 200;
-        font-size: 33px;
+        margin-top: -72px;
+        font-size: 140px;
+        letter-spacing: -0.0em;
+        line-height: 115px;
     }
-
-    h2{
-        font-weight: 200;
-        font-size: 20px;
+    
+    #a2{
+        margin-left: -12px;
     }
-
-    h3{
-        font-weight: 400;
-        font-size: 28px;
+    
+    #o1{
+        margin-right: -8px;
+        margin-left: -2px;
     }
-
+    
+    #o2{
+        margin-right: -8px;
+        margin-left: -6px;
+    }
+    
     p{
-        font-size: 16px;
-        line-height: 24px;
+        margin-top: 2px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 579px){
+    h1{
+        margin-top: -42px;
+        font-size: 80px;
+        letter-spacing: 0;
+        line-height: 65px;
     }
     
-    .image-section{
+    .mobile-break{
         display: block;
     }
     
-    .image-wrapper{
-        width: calc(100% - 10px);
-        margin: 40px 5px;
-        display: flex;
-        align-items: center;
-        align-content: center;
+    #a1{
+        margin-left: -1px;
     }
     
-    .image-wrapper-full{
-        width: calc(100% - 10px);
-        margin: 40px 5px;
+    #a2{
+        margin-left: -5px;
     }
     
-    .album{
-        width: 100%;
+    #o1{
+        margin-left: -1px;
+        margin-right: -4px;
     }
     
-    .landscape{
-        width: 100%;
-        margin: auto;
+    #o2{
+        margin-left: -3px;
+        margin-right: -4px;
     }
     
-    .portrait{
-        width: 100%;
-        margin: auto; 
+    #i1{
+        margin-left: -2px;
     }
-    
-    .landing{
-        display: block;
-    }
-    
-    .landing-wrapper{
-        display: block;
-        align-items: center;
-        align-content: center;
-        height: 100vh;
-        width: 100%;    
-    }
-    
-    .landing-wrapper .image-wrapper{
-        margin: 60px 0px;
-        width: 100%;
-    }
-    
-    .portrait-lg{
-        height: calc(50vh - 90px);
-        width: auto;
-        opacity: 0.9;
-        margin: auto;
-    }
-    
-    .para{
-        width: calc(100% - 40px);
-        margin: 15px auto
-    }
-    
-    .point{
-        width: calc(100% - 60px);
-        margin: 30px auto;
-    }
-    
-    .pull-quote{
-        text-align: center;
-        margin: 40px auto;
-        width: calc(100% - 40px);
-        color: #e56725;
-    }
-    
-    .article{
-        padding-bottom: 25px;
-    }
-    
-    .header{
-        height: 65px;
-    }
-    
-    .button{
-        margin: 0px 15px;
-    }
-    
 }
