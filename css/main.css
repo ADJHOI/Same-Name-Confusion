@@ -32,6 +32,36 @@ h1{
     margin-bottom: 0px;
 }
 
+h2{
+    font-family: minion-pro-display, serif;   
+    font-weight: 400 !important;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 6vw;
+    margin: 80px 60px;
+    margin-bottom: 20px;
+
+}
+
+.press-header{
+    width: 100%;
+    margin-top: 150px !important;
+    margin-bottom: 20px;
+}
+
+.pull-quote{
+    margin-bottom: 10px;
+}
+
+.source{
+    margin-bottom: 70px;
+}
+
+#press{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
 #a1{
     margin-left: -2px;
 }
@@ -81,6 +111,14 @@ a:hover{
     height: 0;
 }
 
+.press-video-container{
+    position: relative;
+    margin: auto auto;
+    height: 0;
+    width: calc(100% - 100px);
+    padding-bottom: 56.26%;
+}
+
 #video{
 /*    margin: auto auto;*/
     position: absolute;
@@ -90,4 +128,55 @@ a:hover{
 /*    height: 100%;*/
     height: calc(100vh - 50px);
     padding-bottom: 25px;
+}
+
+.press-vid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container{
+    margin: auto auto;
+    width: calc(100% - 100px);
+}
+
+.image{
+    width: 100%;
+}
+
+.spotify-container{
+    position: relative;
+    margin: auto auto !important;
+    width: calc(100% - 100px);
+    height: 380px;
+}
+
+#spotify{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bio{
+/*    margin: 50px;*/
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.bio h2{
+/*    margin: 10px 0px;*/
+/*    text-align: left;*/
+}
+
+.appearances{
+    margin-bottom: 7.5vw;
+}
+
+.app-heading{
+    margin-top: 8vw !important;
+}
+
+.links{
+    padding-bottom: 40px;
 }
